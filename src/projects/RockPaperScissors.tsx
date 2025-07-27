@@ -1,10 +1,17 @@
-
+import {
+  	FaHandRock,
+    FaHandPaper,
+    FaHandScissors
+} from 'react-icons/fa'
 export default function RockPaperScissors() {
+
     return (
-     
             <div>
-                <h2>Rock Paper Scissors Exercise Practice</h2>
+                <div className="flex gap-3">
+                    <FaHandRock />
+                    <FaHandPaper />
+                    <FaHandScissors />
+                </div>
             </div>
-    
     )
 }

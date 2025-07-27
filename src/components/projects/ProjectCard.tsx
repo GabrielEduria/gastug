@@ -5,12 +5,12 @@ export default function ProjectCard({ title, description, slug }: {title: string
       <Link href={`/${slug}`  }>
           <div 
           className="h-[300px] border border-gray-100 rounded-lg shadow-sm
-                     bg-gray-800 dark:border-gray-700 hover:scale-105 
-                     transition duration-0.3s">
-     
-            <div className="p-3">
-                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white">{title}</h2>
-                <p className="mb-3 font-normal text-gray-400">{description}</p>
+                     bg-gray-800 dark:border-gray-700 hover:scale-103 
+                     transition duration-0.1s">
+              
+            <div className="p-3 text-center">
+                <h2 className="mb-1 text-xl font-bold tracking-tight text-gray-900 text-white">{title}</h2>
+                <p className="mb-1 font-sm text-gray-400">{description}</p>
             </div>
         </div>
       </Link>

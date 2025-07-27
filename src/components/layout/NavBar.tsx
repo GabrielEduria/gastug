@@ -9,22 +9,22 @@ export default function NavBar(){
     const cleanedPath = PathName.replace(/^\/+/, "");
 
     return (
-       <section className="max-w-[990px] mx-auto py-20 ">
-          <div className="flex flex-row justify-center sm:gap-50 px-10 py-5">
+       <section className="max-w-[880px] mx-auto py-10 ">
+          <div className="flex flex-row justify-center gap-5 sm:gap-20 px-2 overflow-hidden py-5">
               <Link href="/">
-                <p className="flex text-xl hover:scale-90 text-white hover:underline leading-relaxed">
-                  <BsArrowLeft className="text-2xl pt-2 pr-2"/>
-                  Go Back
+                <p className="flex hover:scale-90 hover:underline text-gray-400  text-2xl">
+                  <BsArrowLeft className="text-3xl pt-1.5 pr-2 hover:underline"/>
+                  back
                 </p>
               </Link>
 
-              <div className="overflow-hidden tracking-wide text-white">
-                <h2 className="text-center text-center text-2xl">
+              <div className="overflow-hidden tracking-wide text-gray-400">
+                <h2 className="text-xl lg:text-2xl">
                   <span className="text-red-400">
                    {cleanedPath} 
                   </span> side-project By 
                   <a href="http://gabrieleduria.com"
-                    className="text-blue-700 underline"
+                    className="text-blue-800 hover:scale-90 hover:underline "
                   > Gabbyyyy </a>
                 </h2>
               </div>

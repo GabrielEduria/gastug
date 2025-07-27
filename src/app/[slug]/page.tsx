@@ -14,10 +14,13 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
   const ProjectComponent = (await project.component()).default;
 
   return (
+  
     <section className="h-screen w-full bg-[#222831]">
-      <Motion>
-        <NavBar />
-        <ProjectComponent />
+      <NavBar />
+        <Motion>
+        <div className="h-full max-w-[880px] mx-auto border border-gray-300 rounded px-2">
+           <ProjectComponent />
+        </div>  
       </Motion>
     </section>
 
