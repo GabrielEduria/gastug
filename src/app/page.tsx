@@ -7,7 +7,7 @@ export default function home() {
 
     <section className="h-screen w-full bg-[#222831] flex items-center justify-center">
       <Motion>
-        <div className="h-screen w-full max-w-[990px] border border-blue-400">
+        <div className="h-screen w-full max-w-[990px]">
           <h1 className="text-center text-2xl text-white p-4 py-20">Side Projects by
               <a href="http://gabrieleduria.com"
                 className="text-blue-700 underline"

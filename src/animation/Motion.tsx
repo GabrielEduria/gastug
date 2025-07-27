@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 'use client';
 import { motion } from "motion/react";
 

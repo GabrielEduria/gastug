@@ -19,7 +19,7 @@ export default function NavBar(){
               </Link>
 
               <div className="overflow-hidden tracking-wide text-white">
-                <h2 className="text-center text-xl">
+                <h2 className="text-center text-center text-2xl">
                   <span className="text-red-400">
                    {cleanedPath} 
                   </span> side-project By 
