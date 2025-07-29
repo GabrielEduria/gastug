@@ -5,14 +5,20 @@ export default function home() {
 
   return (
 
-    <section className="h-screen w-full bg-[#222831] flex justify-center">
-      <div className="w-full max-w-[980px]">
+    <section className="h-screen w-full bg-black">
+     <header className="w-full h-[45px] bg-yellow-light mb-30">
+         <div className="overflow-hidden text-black text-center py-2 items-center">
+              <h1 className="text-xl">
+                <span className="text-blue-800">
+                </span> side-projects By 
+                <a href="http://gabrieleduria.com"
+                  className="hover:scale-90 hover:underline text-blue-500"
+                > Gabbyyyy </a>
+              </h1>
+          </div>
+     </header>
+      <div className="w-full max-w-[980px] mx-auto">
         <Motion>
-          <h1 className="text-center text-2xl text-gray-400 p-4 py-20">Side Projects by
-              <a href="http://gabrieleduria.com"
-                className="text-blue-800 hover:scale-90 hover:underline "
-              > Gabbyyyy </a>
-          </h1>
           <ProjectGrid />
         </Motion>
       </div>

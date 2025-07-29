@@ -8,3 +8,10 @@ body,
     padding: 0;
 }
 
+@theme {
+    --color-black: #000000;
+    --color-purple-dark: #9929EA;
+    --color-purple-light: #CC66DA;
+    --color-yellow-light: #FAEB92;
+    --color-yellow: #FFDE32;
+}
