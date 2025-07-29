@@ -5,7 +5,7 @@ export default function home() {
 
   return (
 
-    <section className="h-screen w-full bg-black">
+    <section className="h-screen w-full bg-gray-700">
      <header className="w-full h-[45px] bg-yellow-light mb-30">
          <div className="overflow-hidden text-black text-center py-2 items-center">
               <h1 className="text-xl">

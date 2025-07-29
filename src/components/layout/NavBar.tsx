@@ -18,7 +18,7 @@ export default function NavBar(){
                 </p>
               </Link>
 
-              <div className="overflow-hidden text-black">
+              <div className="text-clip text-black">
                 <h2 className="text-xl">
                   <span className="text-blue-800">
                    {cleanedPath} 
