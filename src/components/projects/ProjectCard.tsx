@@ -5,13 +5,13 @@ export default function ProjectCard({ title, description, slug }: {title: string
       <Link href={`/${slug}`  }>
           <div 
             className="h-[300px] border rounded-lg shadow-sm
-                     bg-zinc-800 hover:scale-103 
-                     transition duration-0.1s">
+                       bg-navy-blue hover:scale-103 
+                       transition duration-0.1s">
             <div className="p-3 text-center">
                 <h2 className="mb-1 text-xl font-bold tracking-tight text-gray-900 text-white">{title}</h2>
                 <p className="mb-1 font-sm text-gray-400">{description}</p>
             </div>
-        </div>
+          </div>
       </Link>
     )
 }
