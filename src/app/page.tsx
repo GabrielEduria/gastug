@@ -5,9 +5,9 @@ export default function home() {
 
   return (
 
-    <section className="h-screen w-full bg-gray-700">
-     <header className="w-full h-[45px] bg-yellow-light mb-30">
-         <div className="overflow-hidden text-black text-center py-2 items-center">
+    <section className="h-screen w-full bg-gray-800">
+     <header className="w-full mb-30">
+         <div className="overflow-hidden text-white text-center py-3 items-center">
               <h1 className="text-xl">
                 <span className="text-blue-800">
                 </span> side-projects By 

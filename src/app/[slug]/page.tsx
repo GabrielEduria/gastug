@@ -15,7 +15,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
   return (
   
-    <section className="h-screen w-full bg-gray-700">
+    <section className="h-screen w-full bg-gray-800">
       <NavBar />
         <Motion>
         <div className="h-full max-w-[880px] mx-auto border border-gray-300 rounded px-2">
