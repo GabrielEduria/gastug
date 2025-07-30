@@ -18,7 +18,6 @@ export default function home() {
               </div>
         </header>
           <ProjectGrid />
-       
       </Motion>
     </section>
   )
