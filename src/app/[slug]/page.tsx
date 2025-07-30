@@ -15,16 +15,14 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
   const ProjectComponent = (await project.component()).default;
 
   return (
-
-    <section className="h-screen w-full bg-dark-blue">
+    <section className="h-screen w-full bg-dark-bg overflow-x-hidden">
       <Motion>
         <NavBar />
-        <div className="h-full max-w-[880px] mx-auto border border-gray-300 rounded px-2">
-           <ProjectComponent />
+        <div className="h-full max-w-[880px] w-full mx-auto rounded p-2 overflow-hidden">
+          <ProjectComponent />
         </div>  
       </Motion>
     </section>
-
-
   );
+
 }

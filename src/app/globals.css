@@ -9,8 +9,9 @@ body,
 }
 
 @theme {
-    --color-dark-blue: #021526;
-    --color-navy-blue: #03346e;
+    --color-dark-bg: #021526;
+    --color-navy-blue: #1a314d;
+    --color-dark-gray: #3d3d3d;
     --color-light-blue: #6EACDA;
     --color-light-yellow: #E2E2B6;
 }

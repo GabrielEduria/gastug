@@ -12,15 +12,15 @@ export default function NavBar(){
        <section className="w-full h-[45px] mb-30">
           <div className="max-w-[880px] mx-auto flex flex-end justify-between  gap-5 sm:gap-20 px-2 overflow-hidden py-3">
               <Link href="/">
-                <p className="flex hover:scale-90 hover:underline text-white text-xl">
-                  <BsArrowLeft className="text-2xl pt-2 pr-2 hover:underline"/>
+                <p className="flex hover:scale-90 hover:underline text-white text-base lg:text-xl pr-5">
+                  <BsArrowLeft className="text-xl pt-2 lg:text-2xl lg:pt-1 pr-2 hover:underline"/>
                   back
                 </p>
               </Link>
 
               <div className="text-clip text-white">
-                <h2 className="text-xl">
-                  <span className="text-blue-800">
+                <h2 className="text-base lg:text-xl">
+                  <span className="text-orange-400">
                    {cleanedPath} 
                   </span> side-project By 
                   <a href="http://gabrieleduria.com"

@@ -4,7 +4,7 @@ import Motion from "@/animation/Motion"
 export default function home() {
 
   return (
-    <section className="h-screen w-full bg-dark-blue">
+    <section className="min-h-screen w-full bg-dark-bg">
       <Motion>
         <header className="w-full mb-30">
             <div className="overflow-hidden text-white text-center py-3 items-center">
@@ -17,9 +17,8 @@ export default function home() {
                   </h1>
               </div>
         </header>
-        <div className="w-full max-w-[980px] mx-auto">
           <ProjectGrid />
-        </div>
+       
       </Motion>
     </section>
   )
