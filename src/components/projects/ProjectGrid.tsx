@@ -3,8 +3,8 @@ import { projects } from "@/lib/projects";
 
 export default function ProjectGrid() {
     return (
-<div className="w-full flex justify-center">
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-6xl justify-items-center w-full">
+<div className="flex justify-center">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-4 justify-items-center ">
     {projects.map((project) => (
         <ProjectCard
         key={project.slug}

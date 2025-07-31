@@ -17,7 +17,9 @@ export default function home() {
                   </h1>
               </div>
         </header>
-          <ProjectGrid />
+          <div className="relative px-4">
+            <ProjectGrid />
+          </div>
       </Motion>
     </section>
   )
