@@ -4,7 +4,7 @@ export default function ProjectCard({ title, description, slug }: {title: string
     return (
       <Link href={`/${slug}`  }>
           <div 
-            className="min-h-[300px] min-w-[300px] border-2 border-gray-700 rounded-lg shadow-sm
+            className="h-[300px] w-[300px] border-2 border-gray-700 rounded-lg shadow-sm
                        bg-navy-blue hover:scale-103 
                        transition duration-0.1s">
             <div className="p-2 text-center">

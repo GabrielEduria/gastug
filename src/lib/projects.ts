@@ -22,6 +22,18 @@ export const projects = [
         slug: "To-Do-List",
         description: "A simple To do List Exercise",
         component: () => import('@/projects/ToDoList'),
+    },
+    {
+        title: "Pomodoro",
+        slug: "Pomodoro",
+        description: "A simple Pomodoro Clock Program ",
+        component: () => import('@/projects/Pomodoro'),
+    },
+    {
+        title: "One Piece Card",
+        slug: "One-Piece-Platform",
+        description: "A simple one piece api practice",
+        component: () => import('@/projects/Pomodoro'),
     }
 
 ]
