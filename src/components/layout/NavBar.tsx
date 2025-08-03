@@ -13,7 +13,7 @@ export default function NavBar(){
           <div className="max-w-[880px] mx-auto flex flex-end justify-between  gap-5 sm:gap-20 px-2 overflow-hidden py-3">
               <Link href="/">
                 <p className="flex hover:scale-90 hover:underline text-white text-base lg:text-xl pr-5">
-                  <BsArrowLeft className="text-xl pt-2 lg:text-2xl lg:pt-1 pr-2 hover:underline"/>
+                  <BsArrowLeft className="text-2xl pt-1 lg:text-3xl lg:pt-1 pr-2 hover:underline"/>
                   back
                 </p>
               </Link>

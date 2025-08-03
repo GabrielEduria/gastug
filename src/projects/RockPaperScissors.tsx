@@ -6,13 +6,35 @@ import {
 
 
 export default function RockPaperScissors() {
+    function getComputerResults(){
+            const options = ["Rock", "Paper", "Scissors"];
+            const randomIndex = Math.floor(Math.random() * options.length);
+            return options[randomIndex];
+    };
+
     return (
-            <div>
-                <div className="flex justify-around px-3 gap-3">
-                  
-                    <FaHandRock className="text-yellow-500 cursor-pointer hover:scale-105 transition duration-0.3s" size={100}/>
-                    <FaHandPaper className="text-yellow-500 cursor-pointer hover:scale-105 transition duration-0.3s" size={100} />
-                    <FaHandScissors className="text-yellow-500 cursor-pointer hover:scale-105 transition duration-0.3s" size={100} />
+            <div className="border-1 border-gray-500">
+                <h2 className="text-white text-center text-3xl font-medium sm:text-5xl sm:font-bold pb-10">Rock Paper Scissors</h2>
+                <div className="text-white text-2xl flex justify-around w-full gap-8 lg:gap-20 pb-20">
+                    <p> Your Score: <span id="player-score" className="text-yellow-500">0</span></p>
+                    <p> Opponent Score: <span id="computer-score" className="text-yellow-500">0</span></p>
+                </div>
+                <div>
+
+                </div>
+                <div className="flex justify-around px-10">
+                    <div id="rock" className="cursor-pointer hover:scale-105 transition duration-0.3s">
+                    <FaHandRock className="text-yellow-500 text-7xl"/>
+                    <p className="text-center text-white text-3xl font-bold">ROCK</p>
+                    </div>
+                    <div id="paper" className="cursor-pointer hover:scale-105 transition duration-0.3s">
+                    <FaHandPaper className="text-yellow-500 text-7xl"/>
+                    <p className="text-center text-white text-3xl font-bold">Paper</p>
+                    </div>
+                    <div id="scissors" className="cursor-pointer hover:scale-105 transition duration-0.3s">
+                    <FaHandScissors className="text-yellow-500 text-7xl"/>
+                    <p className="text-center text-white text-3xl font-bold">Rock</p>
+                    </div>
                 </div>
             </div>
     )

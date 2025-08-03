@@ -9,6 +9,9 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Side Projects",
   description: "Side Projects ",
+  icons: {
+    icon: {url: "/icon.svg"}
+  }
 };
 
 export default function RootLayout({
