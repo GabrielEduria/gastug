@@ -12,7 +12,7 @@ export default function home() {
                     <span className="text-blue-800">
                     </span> side-projects By 
                     <a href="http://gabrieleduria.com"
-                      className="hover:scale-90 hover:underline text-blue-500"
+                      className="hover:scale-90 hover:underline over:opacity-50 text-blue-500"
                     > Gabbyyyy </a>
                   </h1>
               </div>
