@@ -4,11 +4,6 @@ import {
     FaHandScissors
 } from 'react-icons/fa'
 
-const  getComputerResults = () => {
-    const options = ["Rock", "Paper", "Scissors"];
-    const randomIndex = Math.floor(Math.random() * options.length);
-    return options[randomIndex];
-    };
 
 
 
@@ -19,12 +14,10 @@ export default function RockPaperScissors() {
                 <div className="text-white text-2xl flex justify-around w-full gap-8 lg:gap-20 pb-20">
                     <p> Your Score: <span id="player-score" className="text-yellow-500">0</span></p>
                     <p> Opponent Score: <span id="computer-score" className="text-yellow-500">0</span></p>   
-                </div> 
-           
-        
+                </div>
                 <div className="flex justify-around p-10">
                     <div id="rock" className="cursor-pointer hover:scale-105 transition duration-0.1s hover:opacity-80">
-                    <FaHandRock className="text-yellow-500 text-3xl lg:text-7xl"/>
+                    <FaHandRock className="text-yellow-500 text-7xl"/>
                     <p className="text-center text-white text-3xl font-bold">ROCK</p>
                     </div>
                     <div id="paper" className="cursor-pointer hover:scale-105 transition duration-0.1s hover:opacity-80">
