@@ -8,7 +8,7 @@ export default function ProjectCard({ title, description, slug }: {title: string
                        bg-navy-blue hover:scale-103 
                        transition duration-0.1s">
             <div className="p-2 text-center">
-                <h2 className="mb-1 text-xl font-bold tracking-tight text-gray-900 text-white">{title}</h2>
+                <h2 className="mb-1 text-xl font-bold tracking-tight text-gray-900 ">{title}</h2>
                 <p className="mb-1 font-sm text-gray-400">{description}</p>
             </div>
           </div>
