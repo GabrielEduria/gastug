@@ -15,7 +15,7 @@ export const projects = [
         title: "2048",
         slug: "Tetris",
         description: "2048 game for a javascript exercise",
-        component: () => import('@/projects/game2048'),
+        component: () => import('@/projects/Game2048'),
     },
     {
         title: "To do List",
