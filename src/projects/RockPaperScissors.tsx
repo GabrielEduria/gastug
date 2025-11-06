@@ -5,8 +5,6 @@ import {
 } from 'react-icons/fa'
 
 
-
-
 export default function RockPaperScissors() {
     return (
             <div className="relative">
