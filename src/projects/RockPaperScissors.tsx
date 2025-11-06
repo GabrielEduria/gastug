@@ -29,7 +29,7 @@ export default function RockPaperScissors() {
                 </div>
 
                {
-                <div className="border ">
+                <div className="border border-white">
                     <p id="">You won!</p>
                 </div>
                 }
