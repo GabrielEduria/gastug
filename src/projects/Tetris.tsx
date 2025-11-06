@@ -3,6 +3,8 @@
 
 export default function Tetris(){
     return(
-        <div>  </div>
+        <div className="relative border border-white h-full">
+
+        </div>
     )
 }
