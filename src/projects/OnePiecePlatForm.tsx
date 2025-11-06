@@ -1,5 +1,5 @@
 
-const OnePiecePlatForm = () => {
+const OnePiecePlatform = () => {
   return (
        <div className="relative border border-white h-full">
 
